@@ -4,9 +4,10 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // Standard basePath configuration for GitHub Pages
+  // Base path for GitHub Pages
   basePath: isProd ? "/Ishrat-s-Hair-And-Skin-Studio" : "",
-  // assetPrefix is often redundant when basePath is set, removing to avoid potential conflicts
+  // Trailing slash is often required for static sites on GitHub Pages to handle paths correctly
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
