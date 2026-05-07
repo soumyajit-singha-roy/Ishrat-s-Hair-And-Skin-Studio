@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-
 const nextConfig: NextConfig = {
   output: "export",
-  // Base path for GitHub Pages
-  basePath: isProd ? "/Ishrat-s-Hair-And-Skin-Studio" : "",
-  // Trailing slash is often required for static sites on GitHub Pages to handle paths correctly
+  // Hardcoded basePath to guarantee it is applied during build
+  basePath: "/Ishrat-s-Hair-And-Skin-Studio",
+  // Trailing slash for GitHub Pages compatibility
   trailingSlash: true,
   images: {
     unoptimized: true,
