@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Camera, Link as LinkIcon } from "lucide-react";
 
 const stylists = [
   {

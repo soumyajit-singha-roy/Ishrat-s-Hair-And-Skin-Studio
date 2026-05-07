@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Scissors, Palette, Sparkles, SprayCan as Spray, Droplets, HeartHandshake } from "lucide-react";
+import { Scissors, Palette, Sparkles, HeartHandshake } from "lucide-react";
 
 const services = [
   {

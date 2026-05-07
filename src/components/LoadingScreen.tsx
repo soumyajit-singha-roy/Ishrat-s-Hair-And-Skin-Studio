@@ -29,7 +29,7 @@ export default function LoadingScreen() {
             className="flex flex-col items-center"
           >
             <span className="font-serif text-4xl md:text-5xl tracking-[0.3em] uppercase text-luxury-pearl mb-2">
-              Ishrat's
+              Ishrat&apos;s
             </span>
             <span className="text-xs tracking-[0.5em] uppercase text-luxury-gold font-sans">
               Hair & Skin Studio

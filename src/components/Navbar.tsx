@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="group flex flex-col items-center">
           <span className={`font-serif tracking-[0.4em] uppercase transition-all duration-500 ${scrolled ? "text-lg text-luxury-gold" : "text-2xl text-luxury-pearl"}`}>
-            Ishrat's
+            Ishrat&apos;s
           </span>
           <span className={`text-[8px] tracking-[0.6em] uppercase transition-all duration-500 font-sans mt-1 ${scrolled ? "opacity-0 h-0" : "opacity-60 text-luxury-pearl"}`}>
             Hair & Skin Studio

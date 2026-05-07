@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="space-y-6">
           <Link href="/" className="group flex flex-col">
             <span className="font-serif text-3xl tracking-widest uppercase text-white group-hover:text-luxury-gold transition-colors duration-300">
-              Ishrat's
+              Ishrat&apos;s
             </span>
             <span className="text-[10px] tracking-[0.3em] uppercase text-luxury-gold font-sans mt-1">
               Hair & Skin Studio
@@ -76,7 +76,7 @@ export default function Footer() {
 
       {/* Copyright */}
       <div className="max-w-7xl mx-auto px-6 md:px-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-sans">
-        <p>&copy; {new Date().getFullYear()} Ishrat's Hair And Skin Studio. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Ishrat&apos;s Hair And Skin Studio. All rights reserved.</p>
         <div className="flex gap-6">
           <Link href="#" className="hover:text-luxury-gold transition-colors">Privacy Policy</Link>
           <Link href="#" className="hover:text-luxury-gold transition-colors">Terms of Service</Link>

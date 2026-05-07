@@ -60,7 +60,7 @@ export default function Testimonials() {
               className="absolute inset-0 flex flex-col items-center text-center"
             >
               <p className="font-serif text-2xl md:text-3xl text-luxury-black leading-relaxed mb-8 max-w-3xl">
-                "{testimonials[currentIndex].text}"
+                &quot;{testimonials[currentIndex].text}&quot;
               </p>
               <div>
                 <p className="font-sans text-sm tracking-widest uppercase text-luxury-black font-semibold">

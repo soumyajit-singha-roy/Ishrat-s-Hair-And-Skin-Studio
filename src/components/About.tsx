@@ -54,7 +54,7 @@ export default function About() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-luxury-black/60 text-lg font-sans leading-relaxed max-w-xl"
           >
-            Ishrat's Hair And Skin Studio is more than a salon; it's a sanctuary for those who appreciate the finer things in beauty. We believe that true transformation begins with a personalized touch and ends with an unforgettable reflection.
+            Ishrat&apos;s Hair And Skin Studio is more than a salon; it&apos;s a sanctuary for those who appreciate the finer things in beauty. We believe that true transformation begins with a personalized touch and ends with an unforgettable reflection.
           </motion.p>
 
           <motion.div 

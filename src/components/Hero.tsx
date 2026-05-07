@@ -24,7 +24,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2 }}
           className="uppercase tracking-[0.4em] text-luxury-gold text-xs md:text-sm mb-8 font-sans"
         >
-          Welcome to Ishrat's
+          Welcome to Ishrat&apos;s
         </motion.p>
         
         <motion.h1
